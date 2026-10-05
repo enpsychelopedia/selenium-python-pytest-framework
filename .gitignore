@@ -1,0 +1,23 @@
+# Virtual environment
+venv_seleniumframework/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest cache
+.pytest_cache/
+
+# Test reports / generated results
+results/*
+!results/.gitkeep
+
+# Allure
+allure-results/
+allure-report/
+
+# VS Code
+.vscode/
+
+# Environment / secrets
+.env
